@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+venv/
+
+# env
+.env
+
+# logs
+logs/
+*.log
+
+# dbt
+target/
+dbt/logs/
+profiles.yml
+
+# airflow
+airflow/logs/
+
+# misc
+.DS_Store

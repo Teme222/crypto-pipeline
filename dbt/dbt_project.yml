@@ -1,0 +1,19 @@
+name: crypto_pipeline
+version: '1.0.0'
+config-version: 2
+
+profile: crypto_pipeline
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+models:
+  crypto_pipeline:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

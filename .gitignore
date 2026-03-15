@@ -2,6 +2,12 @@
 __pycache__/
 *.pyc
 venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
 # env
 .env
@@ -13,10 +19,11 @@ logs/
 # dbt
 target/
 dbt/logs/
-profiles.yml
+dbt/profiles.yml
 
 # airflow
 airflow/logs/
 
 # misc
 .DS_Store
+Thumbs.db
